@@ -1,0 +1,264 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4140790900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.before_everyScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Submit an application and validate all the required fields (Positive Test case)",
+        "description": "",
+        "id": "as-a-job-seeker--i-want-to-apply-job-in-homage-career-portal;submit-an-application-and-validate-all-the-required-fields-(positive-test-case)",
+        "after": [
+          {
+            "result": {
+              "duration": 5730600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.after_everyScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4145297100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I launch application url and verify the UI",
+            "match": {
+              "location": "HomageCareerTest.iLaunchApplicationUrlAndVerifyTheUI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29630831800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the Basic details",
+            "match": {
+              "location": "HomageCareerTest.iEnterTheBasicDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7325119100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the Roles selection",
+            "match": {
+              "location": "HomageCareerTest.enterTheRolesSelection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8367847000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter the Job Opportunities",
+            "match": {
+              "location": "HomageCareerTest.enterTheJobOpportunities()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14837213600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter the Engagement Types and others",
+            "match": {
+              "location": "HomageCareerTest.enterTheEngagementTypesAndOthers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7322401600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enable the declaration form",
+            "match": {
+              "location": "HomageCareerTest.enableTheDeclarationForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5216695700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Submit application",
+            "match": {
+              "location": "HomageCareerTest.SubmitApplication()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13242657800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify marked mandatory fields are Not observed",
+            "match": {
+              "location": "HomageCareerTest.iVerifyMarkedMandatoryFieldsAreNotObserved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23087156000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Application submitted successfully",
+            "match": {
+              "location": "HomageCareerTest.applicationSubmittedSuccessfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AssignmentTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 161300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.before_everyScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Submit an application with Invalid data (Negative Test case)",
+        "description": "",
+        "id": "as-a-job-seeker--i-want-to-apply-job-in-homage-career-portal;submit-an-application-with-invalid-data-(negative-test-case)",
+        "after": [
+          {
+            "result": {
+              "duration": 59900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.after_everyScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1871870900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I launch application url and verify the UI",
+            "match": {
+              "location": "HomageCareerTest.iLaunchApplicationUrlAndVerifyTheUI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67677029300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I Missing some basic details",
+            "match": {
+              "location": "HomageCareerTest.iMissingSomeBasicDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5157037400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Submit application",
+            "match": {
+              "location": "HomageCareerTest.SubmitApplication()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3077792900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify marked mandatory fields are Exists",
+            "match": {
+              "location": "HomageCareerTest.iVerifyMarkedMandatoryFieldsAreExists()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13065995200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Application submitted Failed",
+            "match": {
+              "location": "HomageCareerTest.applicationSubmittedFailed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AssignmentTest"
+          }
+        ]
+      }
+    ],
+    "name": "As a Job seeker, I want to apply job in Homage career portal",
+    "description": "",
+    "id": "as-a-job-seeker--i-want-to-apply-job-in-homage-career-portal",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featurefiles/HomageCareer.feature",
+    "tags": [
+      {
+        "name": "@AssignmentTest",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="208.174349">
+    <testcase classname="As a Job seeker, I want to apply job in Homage career portal" name="Submit an application and validate all the required fields (Positive Test case)" time="117.324099">
+        <system-out><![CDATA[Given I launch application url and verify the UI............................passed
+When I enter the Basic details..............................................passed
+And enter the Roles selection...............................................passed
+And enter the Job Opportunities.............................................passed
+And enter the Engagement Types and others...................................passed
+And enable the declaration form.............................................passed
+And Submit application......................................................passed
+Then I verify marked mandatory fields are Not observed......................passed
+And Application submitted successfully......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a Job seeker, I want to apply job in Homage career portal" name="Submit an application with Invalid data (Negative Test case)" time="90.85025">
+        <system-out><![CDATA[Given I launch application url and verify the UI............................passed
+When I Missing some basic details...........................................passed
+And Submit application......................................................passed
+Then I verify marked mandatory fields are Exists............................passed
+And Application submitted Failed............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
